@@ -1,4 +1,4 @@
-package main.br.com.antoniojose.aula_classes
+package main.br.com.antoniojose.aulas
 
 class Pessoa {
 
