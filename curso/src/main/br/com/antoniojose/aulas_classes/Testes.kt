@@ -15,5 +15,13 @@ fun main(){
 
 //    println(TipoPessoa.PF.s)
 
+       var antonio = Administrador("antonio", "2131546545", 100.0, "127")
+
+       println(antonio.nome)
+       println(antonio.cpf)
+       println(antonio.salario)
+
+       println("Login "+antonio.login())
+
 }
 

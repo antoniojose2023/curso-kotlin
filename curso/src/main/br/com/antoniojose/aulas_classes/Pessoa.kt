@@ -1,12 +1,11 @@
 package main.br.com.antoniojose.aulas_classes
 
-class Pessoa {
+ abstract class Pessoa(
+   open var nome: String,
+   open var cpf: String
 
-    var nome: String = "Maria"
-    var cpf: String = "123.456.789-98"
-    private set
+) {
 
-    constructor()
 }
 
 
