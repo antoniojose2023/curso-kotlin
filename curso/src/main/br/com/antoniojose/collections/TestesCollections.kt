@@ -2,13 +2,7 @@ package main.br.com.antoniojose.collections
 
 fun main(){
 
-    var valores = IntArray(5)
-
-    valores[0] = 1
-    valores[1] = 5
-    valores[2] = 4
-    valores[3] = 9
-    valores[4] = 8
+    var valores = intArrayOf(1,5,6,4,9)
 
 
     valores.sort()
