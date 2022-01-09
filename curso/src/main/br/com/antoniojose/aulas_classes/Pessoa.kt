@@ -7,6 +7,9 @@ class Pessoa {
     var cpf: String = "123.456.789-98"
     private set
 
+    constructor()
+
+    fun retonarDados() = nome +" - "+ cpf
 
 }
 
@@ -16,9 +19,8 @@ fun main(){
     var antonio = Pessoa()
 
     println(antonio.nome)
-
-
     println(antonio.cpf)
+    println(antonio.retonarDados())
 
 
 }
