@@ -37,9 +37,7 @@ class Funcionario(var nome: String, var salario: Double, var tipo: String){
 
     override fun toString(): String =
        """
-           $nome
-           $salario
-           $tipo
+           $nome   $salario   $tipo
        """
 
 
